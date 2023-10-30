@@ -37,6 +37,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_hooks: ^0.18.6
 
+  flutter_shaders: 0.1.2
+  cached_network_image:
+  audioplayers:
+  flutter_svg:
+  flutter_animate: 4.2.0+1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -63,6 +69,8 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  shaders:
+    - shaders/page_curl.frag
   assets:
     - assets/images/
     - assets/

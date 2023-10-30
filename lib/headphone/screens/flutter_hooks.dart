@@ -1,5 +1,5 @@
-import 'package:animated_project/models/headphones_model.dart';
-import 'package:animated_project/screens/product_detail_screen.dart';
+import 'package:animated_project/headphone/models/headphones_model.dart';
+import 'package:animated_project/headphone/screens/product_detail_screen.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter/material.dart';
 

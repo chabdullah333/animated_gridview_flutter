@@ -1,4 +1,4 @@
-import 'package:animated_project/screens/flutter_hooks.dart';
+import 'package:animated_project/headphone/screens/flutter_hooks.dart';
 import 'package:flutter/material.dart';
 
 class ProductDetailScreen extends StatefulWidget {

@@ -1,4 +1,4 @@
-import 'package:animated_project/models/headphones_model.dart';
+import 'package:animated_project/headphone/models/headphones_model.dart';
 import 'package:flutter/material.dart';
 import 'product_detail_screen.dart';
 
