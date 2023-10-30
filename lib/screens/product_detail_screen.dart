@@ -1,3 +1,4 @@
+import 'package:animated_project/screens/flutter_hooks.dart';
 import 'package:flutter/material.dart';
 
 class ProductDetailScreen extends StatefulWidget {
@@ -125,7 +126,13 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                                 Align(
                                   alignment: Alignment.centerLeft,
                                   child: ElevatedButton.icon(
-                                    onPressed: () {},
+                                    onPressed: () {
+                                      Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                              builder: (context) =>
+                                                  const FlutterHooksExample()));
+                                    },
                                     icon: const Icon(
                                       // <-- Icon
                                       Icons.shopping_cart,
